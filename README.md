@@ -62,6 +62,7 @@ The program reports whether each scenario passes or fails under both design meth
   - `numpy`
   - `matplotlib`
   - `seaborn`
+  - `os`
 
 Install dependencies with:
 
