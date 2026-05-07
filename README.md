@@ -17,6 +17,7 @@ The workflow includes:
 - bar charts showing LRFD and ASD utilization
 
 This project is useful for comparing how different W-shapes, materials, and loading conditions perform under tensile yielding requirements.
+This should not be used as a final check or considered a stand-alone method for analysis.
 
 ---
 
@@ -289,17 +290,3 @@ The program then:
 - The default material is `A992` when the material field is left blank.
 
 ---
-
-## Recommended Use
-
-This code is best used as:
-
-- a teaching example for LRFD and ASD tension member checks
-- a quick comparison tool for different steel shapes and ASTM materials
-- a demonstration of how tabular steel data can be connected to design calculations in Python
-
----
-
-## Main Takeaway
-
-This project turns steel section data and material properties into a repeatable tensile yielding check that is easy to run, compare, and visualize. A user can enter one custom case, review three additional scenarios, and quickly determine whether each member passes or fails under LRFD and ASD criteria.
